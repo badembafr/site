@@ -10,6 +10,31 @@
     list-style-type: none;
 }
 
+
+/* TITRE INFOS DEBUT */
+.titre-infos
+{
+  text-align: center;
+}
+
+.titre-infos h3
+{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.titre-infos p
+{
+  font-size: 13px;
+}
+
+.titre-infos p a
+{
+  color: black;
+}
+/* TITRE INFOS FIN */
+
+
 /* MENU DEBUT */
 nav .logo a
 {
@@ -73,30 +98,6 @@ a.cv-latex
 /* MENU FIN */
 
 
-/* TITRE INFOS DEBUT */
-.titre-infos
-{
-  text-align: center;
-}
-
-.titre-infos h3
-{
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-.titre-infos p
-{
-  font-size: 13px;
-}
-
-.titre-infos p a
-{
-  color: black;
-}
-/* TITRE INFOS FIN */
-
-
 /* PROFIL DEBUT */
 .profil
 {
@@ -158,6 +159,7 @@ a.cv-latex
   font-size: 14px;
 }
 /* PROFIL FIN */
+
 
 /* PROJETS DEBUT */
 .projets
@@ -270,3 +272,74 @@ a.cv-latex
   padding-bottom: 5px;
 }
 /* PROJETS FIN */
+
+
+/* COMPETENCES DEBUT */
+.competences .conteneur
+{
+  display: flex;
+  justify-content: center;
+}
+
+.competences
+{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.competences .conteneur .box{
+  width: 29.5%;
+  padding: 25px 30px;
+  background: #fff;
+  box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
+  border-radius: 1rem;
+  margin: 10px 10px 20px 10px;
+}
+
+.box .bar
+{
+  margin: 20px 0;
+}
+
+.box .bar:first-child
+{
+  margin-top: 0px;
+}
+
+.box .bar .txt
+{
+  margin-bottom: 5px;
+}
+
+.box .bar .txt span
+{
+  font-size: 11px;
+  animation: showText 0.5s 1s linear forwards;
+}
+
+.box .bar .txt span i
+{
+  font-size: 13px;
+  animation: showText 0.5s 1s linear forwards;
+}
+
+.box .bar .ligne
+{
+  height: 10px;
+  width: 100%;
+  background: hsl(250,69%,61%);
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05), 0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate 
+{
+  100%{
+    transform: scaleX(1);
+  }
+}
+/* COMPETENCES FIN */
