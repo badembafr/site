@@ -555,47 +555,6 @@ ul li p
 {
   color: black;
 }
-
-
-.me-contacter .ulcenter
-{
-  text-align: center;
-}
-
-.me-contacter ul
-{
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.me-contacter ul li
-{
-  margin-top: 10px;
-  border-radius: 0.5rem;
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
-  width: 65%;
-  text-align: center;
-  height: 60px;
-  padding-top: 10px;
-}
-
-.me-contacter ul li i
-{
-  position: absolute;
-  left: 19%;
-  padding-top: 14px;
-  color :hsl(250,69%,61%);
-}
-
-.me-contacter ul li p
-{
-  color: rgb(85, 82, 82);
-  font-size: 14px;
-  margin-top: 12px;
-  text-align: center;
-}
 /* ME CONTACTER FIN */
 
 
