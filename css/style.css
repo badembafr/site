@@ -358,7 +358,7 @@ a.cv-latex
   border-top-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .container 
@@ -479,14 +479,113 @@ ul li p
 /* FORMATION FIN */
 
 
-/* FOOTER DEBUT */
+/* ME CONTACTER DEBUT */
+.me-contacter
+{
+  padding: 10px;
+}
+
+.me-contacter .box
+{
+  display: flex;
+  justify-content: center;
+}
+
+.me-contacter .box .icon
+{
+  margin: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  margin-top: 20px;
+}
+
+.me-contacter .box .icon span
+{
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.me-contacter .box .icon span i
+{
+  line-height: 60px;
+  font-size: 25px;
+}
+
+.me-contacter .box .icon span a
+{
+  color: hsl(250,69%,61%);
+}
+
+.me-contacter .box .icon span a:hover
+{
+  color: black;
+}
+
+
+.me-contacter .ulcenter
+{
+  text-align: center;
+}
+
+.me-contacter ul
+{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.me-contacter ul li
+{
+  margin-top: 10px;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
+  width: 65%;
+  text-align: center;
+  height: 60px;
+  padding-top: 10px;
+}
+
+.me-contacter ul li i
+{
+  position: absolute;
+  left: 19%;
+  padding-top: 14px;
+  color :hsl(250,69%,61%);
+}
+
+.me-contacter ul li p
+{
+  color: rgb(85, 82, 82);
+  font-size: 14px;
+  margin-top: 12px;
+  text-align: center;
+}
+/* ME CONTACTER FIN */
+
+
+/* BAS DE PAGE DEBUT */
 footer
 {
   background: hsl(250,69%,61%);
   font-family: "Open Sans";
   padding-top: 30px;
   color: white;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .footer-content
@@ -566,10 +665,10 @@ footer
   height: 1px;
   opacity: 0.1;
 }
-/* FOOTER FIN */
+/* BAS DE PAGE FIN */
+
 
 /* JEU DEBUT */
-
 #jeu
 {
   margin-bottom: 20px;
